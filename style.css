@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding-top: 0.05rem;
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/Rectangle\ 6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-wrapper {
+    max-width: 95%;
+    margin: 1rem auto;
+}
+
+.nav-1 {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1 ul > * {
+    margin-left: 1.3rem;
+}
+
+.bar {
+    width: 1px;
+    height: 5vh;
+    background-color: white;
+}
+
+.nav-1 ul li {
+    
+    list-style: none;
+}
+
+hr {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-color: white;
+    height: 0.5px;
+    width: 100%;
+}
+
+.nav-2 {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-2 ul > * {
+    margin-left: 1rem;
+}
+
+.nav-2 ul li {
+    list-style: none;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.add-listings {
+    padding: .8rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+.main-heading {
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+}
+
+.main-description {
+    margin: 1.5rem auto;
+    max-width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.main-search {
+    max-width: 80%;
+    margin: 5rem auto;
+}
+
+.sm-cards {
+    margin: 0.5rem auto;
+    display: flex;
+    width: 10%;
+    align-items: center;
+    color: grey;
+}
+
+.sm-card {
+    border-radius: 5px;
+    padding: .5rem;
+    background-color: white;
+}
+
+.sm-card-1 {
+    color: white;
+    background-color: rgb(53, 53, 154);
+    margin-right: 1rem;
+}
+
+.search-sec {
+    border-radius: 7px;
+    padding: .5rem 1.5rem;
+    padding-top: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-sec * {
+    margin-bottom: 1rem;
+}
+
+.selection {
+    border-radius: 0;
+    outline: none;
+    border: 1px solid rgb(56, 56, 135);
+    padding: 5px;
+}
+
+.search-btn {
+    border-radius: 3px;
+    border: 1px solid rgb(53, 53, 154);
+    outline: none;
+    color: white;
+    padding: 1rem 2rem;
+    background-color: rgb(53, 53, 154);
+    cursor: pointer;
+}
+.search-btn:hover {
+    background-color: transparent;
+    color: rgb(53, 53, 154); 
+    border: 1px solid rgb(53, 53, 154);
+}
+
+.section-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.properties-header {
+    max-width: 40%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.properties-area-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap;
+    gap: 1rem; */
+}
+
+.properties-description {
+    text-align: center;
+}
+
+.img {
+    width: 20rem;
+}
+
+.img-extra {
+    border-radius: 5px;
+    width: 40rem;
+    height: 11.4rem;
+}
+
