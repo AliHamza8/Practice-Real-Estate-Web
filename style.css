@@ -253,7 +253,7 @@ hr {
 
 .image-2::before {
     position: absolute;
-    content: 'Washington';
+    content: 'Franklin';
     top: 1rem;
     left: 1rem;
     opacity: 0;
@@ -288,7 +288,7 @@ hr {
 
 .image-3::before {
     position: absolute;
-    content: 'Washington';
+    content: 'Clinton';
     top: 1rem;
     left: 1rem;
     opacity: 0;
@@ -326,9 +326,9 @@ hr {
     width: 43.8;
 }
 
-.image-4::before {
+/* .image-4::before {
     position: absolute;
-    content: 'Washington';
+    content: 'Arlington';
     top: 1rem;
     left: 1rem;
     opacity: 0;
@@ -359,11 +359,11 @@ hr {
 
 .image-4:hover::after {
     opacity: 1;
-}
+} */
 
 .image-5::before {
     position: absolute;
-    content: 'Washington';
+    content: 'Centerville';
     top: 1rem;
     left: 1rem;
     opacity: 0;
