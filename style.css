@@ -323,7 +323,57 @@ hr {
 
 .image-4 {
     position: relative;
-    width: 43.8;
+    width: 43.8rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43.8rem;
+    height: 11.4rem;
+    background-color: rgba(53, 53, 154, 0.4);
+    opacity: 0;
+    z-index: 3;
+    transition: all .4s ease;
+}
+
+
+.overlay-inside {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 43.8rem;
+    height: 11.4rem;
+    opacity: 0;
+    z-index: 3;
+    transition: all .4s ease;
+    color: white;
+}
+
+.btn-view {
+    margin-top: 1rem;
+    margin-left: 17rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: white;
+}
+
+.btn-view:hover {
+    background-color: rgb(53, 53, 154);
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay-inside:hover {
+    opacity: 1;
 }
 
 /* .image-4::before {
