@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
 * {
     margin: 0;
@@ -207,6 +207,80 @@ hr {
 .img-extra {
     border-radius: 5px;
     width: 43.8rem;
+    height: 11.4rem;
 }
 
+.image-1::after  {
+    position: relative;
+    content: 'jksdst643';
+    top: 0;
+    left: 0;
+    background-color: rgba(53, 53, 154, 0.4);
+    width: 40rem;
+    opacity: 1;
+    z-index: 3;
+}
+
+.image-1::after:hover {
+    
+}
+
+.section-2 {
+    margin-top: 10rem;
+}
+
+.icon-area-header {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.icon-head {
+    text-align: center;
+}
+
+.icon-description {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+
+.icon-area-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-card {
+    padding: 1rem;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.icon-card:hover {
+    border: 2px solid rgb(53, 53, 154);
+}
+
+.icon {
+    width: 4.2rem;
+}
+
+.icon-card h3{
+    margin-top: 1.5rem;
+}
+
+.icon-card p {
+    margin-top: 1rem;
+}
+
+.icon-card a {
+    text-decoration: none;
+    color: rgb(53, 53, 154);
+    padding: 0.1rem;
+}
+
+.icon-card a:hover {
+    border-bottom: 1.5px solid rgb(53, 53, 154);
+}
 
