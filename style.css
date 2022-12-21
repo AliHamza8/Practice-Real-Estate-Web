@@ -524,20 +524,71 @@ hr {
     width: 20rem;
 }
 
+.price {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
 .car {
     display: flex;
+    margin: 1rem 0;
 }
 
 .car img {
     margin-right: .3rem;
 }
 
-.price {
-    color: lightseagreen;
-    font-weight: bold;
-}
-
 .car p {
     margin-right: 0.3rem;
 }
 
+.owner-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-details {
+    display: flex;
+}
+
+.personal-details img {
+    margin-right: 0.5rem;
+}
+
+.personal-details p {
+    margin-top: 0.5rem;
+}
+
+.load-btn {
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: rgb(53, 53, 154);
+    color: white;
+    border: 1px solid rgb(53, 53, 154);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.load-btn:hover {
+    background-color: transparent;
+    color: rgb(53, 53, 154);
+    border: 1px solid rgb(53, 53, 154);
+}
+
+.section-4 {
+    margin-top: 7rem;
+}
+
+.image-slider-header {
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+.image-slider-header h1 {
+    text-align: center;
+}
+.image-slider-header p {
+    text-align: center;
+}
