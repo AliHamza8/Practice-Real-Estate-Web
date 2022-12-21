@@ -376,41 +376,6 @@ hr {
     opacity: 1;
 }
 
-/* .image-4::before {
-    position: absolute;
-    content: 'Arlington';
-    top: 1rem;
-    left: 1rem;
-    opacity: 0;
-    z-index: 3;
-    transition: all .4s ease;
-}
-
-.image-4:hover::before {
-    font-size: 1.3rem;
-    color: white;
-    opacity: 1;
-}
-
-.image-4::after  {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    background-color: rgba(53, 53, 154, 0.4);
-    width: 43.8rem;
-    height: 11.4rem;
-    border-radius: 5px;
-    opacity: 0;
-    z-index: 3;
-    transition: all .4s ease;
-    cursor: pointer;
-}
-
-.image-4:hover::after {
-    opacity: 1;
-} */
-
 .image-5::before {
     position: absolute;
     content: 'Centerville';
@@ -516,5 +481,63 @@ hr {
 
 .icon-card a:hover {
     border-bottom: 1.5px solid rgb(53, 53, 154);
+}
+
+.section-3 {
+    margin-top: 7rem;
+}
+
+.latest-properties-header {
+    max-width: 40%;
+    margin: 1rem auto;
+}
+
+.latest-properties-header h1 {
+    text-align: center;
+}
+
+.latest-properties-header p {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.latest-prop-images-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* .prop-image {
+    max-width: 20rem;
+    min-height: 20rem;
+} */
+
+.home-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rec-img {
+    width: 20rem;
+}
+
+.car {
+    display: flex;
+}
+
+.car img {
+    margin-right: .3rem;
+}
+
+.price {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.car p {
+    margin-right: 0.3rem;
 }
 
