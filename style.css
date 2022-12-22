@@ -125,6 +125,8 @@ hr {
     border-radius: 5px;
     padding: .5rem;
     background-color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .sm-card:hover {
@@ -595,7 +597,6 @@ hr {
 
 .image-slider {
     padding: 1rem;
-    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -605,7 +606,6 @@ hr {
 /* SLIDER IMAGE START */
 
 .picture-slider {
-    background-color: grey;
     width: 19.8rem;
 }
 
@@ -726,6 +726,32 @@ hr {
 .slide-btn:active {
     background-color: rgb(53, 53, 154);
 }
+
+.section-5 {
+    /* background-image: url('images/Rectangle\ 10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    text-align: center;
+    
+}
+
+.overlay-best {
+    background-color: rgb(53, 53, 154, 0.4);
+}
+
+.rac-10 {
+    max-width: 100%;
+
+}
+
+.best-place-head {
+    color: white;
+    max-width: 30%;
+    margin: 0 auto;
+    min-height: 20rem;
+}
+
 
 
 
