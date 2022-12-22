@@ -582,7 +582,7 @@ hr {
 }
 
 .image-slider-header {
-    margin: 0 auto;
+    margin: 3rem auto;
     max-width: 40%;
 }
 
@@ -591,4 +591,121 @@ hr {
 }
 .image-slider-header p {
     text-align: center;
+}
+
+                                            /* SLIDER IMAGE START */
+
+.picture-slider {
+    width: 19.5rem;
+}
+
+.image-slider-img {
+    position: relative;
+    width: 19.5rem;
+    height: 26rem;
+    border-radius: 5px;
+}
+
+.img-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19.5rem;
+    height: 26rem;
+    z-index: 4;
+    opacity: 1;
+}
+
+.img-info:hover .View-button {
+    opacity: 1;
+}
+
+.offer {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    width: 5rem;
+    color: white;
+    background-color: rgb(53, 53, 154);
+}
+
+.View-button {
+    opacity: 0;
+    margin: 9.7rem 6.8rem;
+    width: 7rem;
+    height: 3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+
+.View-button:hover {
+    background-color: rgb(53, 53, 154);
+}
+
+.location {
+    color: white;
+    position: absolute;
+    width: 19.5rem;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    opacity: 1;
+    display: flex;
+}
+
+.gps {
+    display: flex;
+    order: 1;
+    bottom: 0;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.gps img {
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+}
+
+.image-area {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.image-area img {
+    margin-right: 0.3rem;
+}
+
+                                        /* SLIDER IMAGE START */
+
+
+.pre-next-btn {
+    text-align: center;
+    margin: 3rem auto;
+    max-width: 15%;
+}
+
+.slide-btn {
+    background-color: grey;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.slide-btn:hover {
+    background-color: rgb(53, 53, 154);
+}
+
+.slide-btn:active {
+    background-color: rgb(53, 53, 154);
 }
