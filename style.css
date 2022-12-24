@@ -728,30 +728,72 @@ hr {
 }
 
 .section-5 {
-    /* background-image: url('images/Rectangle\ 10.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    position: relative;
     text-align: center;
-    
 }
 
-.overlay-best {
-    background-color: rgb(53, 53, 154, 0.4);
+.best-image {
+    max-width: 100%;
 }
 
 .rac-10 {
-    max-width: 100%;
-
+    width: 100%;
+    height: 25rem;
 }
 
 .best-place-head {
     color: white;
     max-width: 30%;
-    margin: 0 auto;
-    min-height: 20rem;
+    margin: 5rem auto;
 }
 
+.best-place-head p {
+    margin-top: 2rem;
+}
 
+.overlay-best {
+    position: absolute;
+    background-color: rgb(53, 53, 154, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25rem;
+    opacity: 1;
+    z-index:3;
+}
 
+.contact-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
 
+.contact-btn:hover {
+    background-color: #063053;
+}
+
+.footer-class {
+    margin-top: 5rem;
+}
+
+.footer-wrapper {
+    line-height: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.socil-media-clicks {
+    margin: 1rem 0;
+}
+
+.footer-class p {
+    color: grey;
+}
